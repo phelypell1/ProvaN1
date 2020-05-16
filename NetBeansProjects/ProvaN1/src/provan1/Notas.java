@@ -65,8 +65,8 @@ public class Notas {
         this.media = media;
     }
     
-    public double calculaMedia(double n1, double n2){
-        return media = (nota1 + nota2) / 2;
+    public double calculaMedia(double n1, double n2, double n3){
+        return media = (nota1 + nota2 + nota3) / 3;
     }
 
     /**

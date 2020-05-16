@@ -127,8 +127,13 @@ public class Aluno{
         this.notas = notas;
     }
     
-    public String getSituacao(){
+    public String getSituacao(double valor){
         String msg = "Aguardando";
+        if(valor < 6){
+            msg = "Reprovado";
+        }else{
+            msg = "Aprovado";
+        }
         return msg;
     }
 }
